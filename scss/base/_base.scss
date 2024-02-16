@@ -26,12 +26,18 @@ button {
     background: transparent;
 }
 
+a,
+img,
 button,
 input,
+label,
 textarea,
 select {
+    padding: 0;
     font-family: inherit;
     color: inherit;
+    outline: none;
+    border: none;
 }
 
 .icon {
