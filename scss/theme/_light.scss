@@ -66,4 +66,36 @@ html {
     --form-select-dialog-bg: #fff;
     --form-option-hover-bg: #ebebeb;
 
+     // Product detail
+     --product-detail-bg: #fff;
+     --product-detail-info-bg: #f6f6f6;
+     --product-detail-info-content-bg: #fff;
+     --product-detail-tag-bg: #ededf6;
+ 
+     @include abstracts.screen(md) {
+         --product-detail-bg: #fafafd;
+         --product-detail-info-bg: #fff;
+     }
+ 
+     // Breadcrumbs
+     --breadcrumbs-bg: #f6f6f6;
+     --breadcrumbs-shadow: rgba(237, 237, 246, 0.2);
+ 
+     @include abstracts.screen(md) {
+         --breadcrumbs-bg: #fff;
+     }
+ 
+     // Search bar
+     --search-bar-bg: #fff;
+ 
+     // Review card
+     --review-card-bg: #fafafd;
+ 
+     @include abstracts.screen(md) {
+         --review-card-bg: #fff;
+     }
+ 
+     // Text content
+     --text-content-hr-bg: #ebebeb;
+
 }
